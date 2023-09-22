@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    flex-flow: column;
+    row-gap: 1rem;
+    padding: .5rem .5rem 0 0;
+    border-right: 1px solid rgb(15, 15, 15);
+    flex: 0.2;
+    min-width: 250px;
+    position: sticky;
+    top: 0;
+
+    .twitter-icon {
+        max-width: max-content;
+        --twitter-blue: #1D9BF0;
+        color: var(--twitter-blue);
+        cursor: pointer;
+        padding: .2rem;
+        object-fit: cover;
+        border-radius: 100%;
+        margin-left: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .twitter-icon:hover {
+        --hovered: rgb(26, 25, 25);
+        background-color: var(--hovered);
+    }
+
+    .navigation-wrapper {
+        display: flex;
+        flex-flow: column;
+        row-gap: .5rem;
+    }
+}

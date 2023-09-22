@@ -1,0 +1,34 @@
+:root {
+    --dark-icon: #0f1419;
+}
+
+.sidebarItem {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+    padding: .3rem 1rem;
+    transition: .02s all ease-in-out;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: max-content;
+    
+}
+
+.sidebarItem h2 {
+    font-weight: 300;
+    font-size: .9rem !important;
+}
+
+.sidebarItem > * {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.sidebarItem:hover {
+    --hovered: rgb(26, 25, 25);
+    background-color: var(--hovered);
+}
+
+.page--active > h2 {
+    font-weight: 600;
+}

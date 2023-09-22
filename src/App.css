@@ -1,0 +1,15 @@
+body {
+  --twitter-native: #50b7f5;
+  --twitter-bg: #e6ecf0;
+  --dark-bg: #000;
+  font-family: Montserrat, sans-serif;
+  background-color: var(--dark-bg);
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  max-width: 1024px;
+  margin: 0 auto !important;
+  padding: 0 10px;
+}/*# sourceMappingURL=App.css.map */
